@@ -1,1 +1,1 @@
-# GearBox_Fault_detection-ICEE2024
+# Continuous Wavelet Transform Transformer fault detection

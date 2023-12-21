@@ -1,0 +1,1 @@
+ calculate positional encoding once and then reuse them.
