@@ -45,16 +45,11 @@ python Train.py
 ```
 
 ## Usage
+ depending on your specific need you may need to train, fine-tune, or just use some of the pre-trained weights.
 
-1. Navigate to the `/code` directory.
-
-2. Execute the main script:
-
-    ```bash
-    python gearbox_fault_detection.py
-    ```
-
-3. Explore the results in the `/results` directory.
+*Please make sure that the config.yaml configurations machs the model_weight.pt*
+ Using the pre-trained weights.
+ the pre-trained weights are in the *model* folder. In [Test.py](https://github.com/yriyazi/GearBox_Fault_detection-ICEE2024/blob/main/Test.py) change the model address (directory) and feed your data to the neural network.
 
 ## License
 
@@ -63,7 +58,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
-If you use this code or the FarsTail dataset in your research, please cite:
+If you use this code in your research, please cite:
 
 ```
 [Ali Asadian, Yassin Riyazi, and Seyyed Mossa Ayati*. 2024. " Gearbox Fault Detection Using Continuous Wavelet Transform and Vision Transformer (ViT)." ICEE, 2024]
