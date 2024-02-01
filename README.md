@@ -41,7 +41,7 @@ python splitter.py
 4. Run the scripts to preprocess the data and train the model:
 
 ```bash
-python train.py
+python Train.py
 ```
 
 ## Usage
