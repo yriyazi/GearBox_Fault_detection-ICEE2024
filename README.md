@@ -47,8 +47,11 @@ python Train.py
 ## Usage
  depending on your specific need you may need to train, fine-tune, or just use some of the pre-trained weights.
 
+
 *Please make sure that the config.yaml configurations machs the model_weight.pt*
+
  Using the pre-trained weights.
+ 
  the pre-trained weights are in the *model* folder. In [Test.py](https://github.com/yriyazi/GearBox_Fault_detection-ICEE2024/blob/main/Test.py) change the model address (directory) and feed your data to the neural network.
 
 ## License
