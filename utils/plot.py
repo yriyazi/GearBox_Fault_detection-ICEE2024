@@ -77,8 +77,8 @@ def result_plot(model_name:str,
 
 
     epochs = range(len(data_1))
-    ax.plot(epochs, data_1, 'b',linewidth=3, label='tarin '+ plot_desc)
-    ax.plot(epochs, data_2, 'r',linewidth=3, label='validation '+plot_desc)
+    ax.plot(epochs, data_1, linewidth=3, label='tarin '+ plot_desc)#'b',
+    ax.plot(epochs, data_2, linewidth=3, label='validation '+plot_desc)#'r',
 
     ax.set_xlabel("iteration"       ,fontproperties=font_properties ,fontsize=axis_label_size)
     ax.set_ylabel(plot_desc     ,fontproperties=font_properties ,fontsize=axis_label_size)
@@ -105,14 +105,14 @@ def result_plot(model_name:str,
         label.set_fontproperties(font_properties)
 
 
-    #spine are borde line of plot
-    ax.spines["right"].set_visible(False)
-    ax.spines["top"].set_visible(False)
+    # #spine are borde line of plot
+    # ax.spines["right"].set_visible(False)
+    # ax.spines["top"].set_visible(False)
 
     
     # ax.set_ylim([8.48,8.6])
     ax.set_ylim(y_lim)
-    plt.savefig(model_name+'.pdf', format='pdf', bbox_inches='tight', dpi=300)
+    plt.savefig(model_name+'.png', format='png', bbox_inches='tight', dpi=300)
     # plt.savefig(model_name+'.svg', format='svg', bbox_inches='tight', dpi=300)
 
     plt.show()
